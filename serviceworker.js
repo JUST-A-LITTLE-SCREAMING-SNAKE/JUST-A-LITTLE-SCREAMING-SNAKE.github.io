@@ -4,10 +4,9 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 '/',
                 '/index.html' ,
-                '/styles.css' ,
                 '/app.js' ,
                 '/manifest.json' ,
-                '/icon.png'
+                '/icons/android-chrome-512x512.png'
             ]);
         })
     );
