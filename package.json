@@ -2,7 +2,7 @@
   "name": "just-a-little-screaming-snake.github.io",
   "version": "1.0.0",
   "description": "My NEA",
-  "main": "index.html",
+  "main": "spoons.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
