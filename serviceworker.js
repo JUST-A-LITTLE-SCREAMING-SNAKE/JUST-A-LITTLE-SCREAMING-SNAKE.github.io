@@ -2,12 +2,11 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('v1').then(cache => {
             return cache.addAll([
-                '/',
                 '/index.html' ,
-                '/app.js' ,
+                '/spoons.js' ,
                 '/manifest.json' ,
                 '/icons/android-chrome-512x512.png',
-                '/icons/android-chrom-192x192.png'
+                '/icons/android-chrome-192x192.png'
             ]);
         })
     );
